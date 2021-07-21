@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  /* Main Container */
+  .Main-Container {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* Header Section */
+  #Header-Container {
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 1 auto;
+  }
+  .Header-Link {
+    font-size: 14px;
+    margin-right: 1rem;
+    font-family: arial, sans-serif;
+  }
+  
+  /* Logo Section */
+  .Logo-Container {
+    width: 100vw;
+    padding-top: 100px;
+    min-height: 92px;
+    background-color: white;
+    text-align: center;
+    flex: 0 1 auto;
+  }
+  .Logo-Items {
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+    max-height: 92px;
+  }
+  
+  /* Search & Button Section */
+  .Search-Container {
+    height: 37px;
+    border-radius: 24px;
+    margin-left: 35%;
+    width: 581px;
+    max-width: 50%;
+    text-align: center;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto;
+    margin-top: 15px;
+  }
+  
+  .Search-Text {
+    border: none;
+    line-height: 35px;
+    width: 80%;
+    max-width: 80%;
+    text-align: center;
+  }
+  
+  .Search-Icon {
+    margin-left: 10px;
+    color: #9aa0a6;
+  }
+  .Mic-Icon {
+    margin-right: 10px;
+    color: #9aa0a6;
+  }
+  
+  /* Button Section */
+  .Button-Container {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin-top: 15px;
+  }
+  
+  .Button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    height: 36px;
+    font-size: 14px;
+    padding: 0 16px;
+    text-align: center;
+    color: #3c4043;
+  }
+  
+  /* Blank-Section */
+  .Blank-Container {
+    background-color: white;
+    flex: 0 1 auto;
+  }
+  
+  /* Footer Section */
+  .Footer-Container {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: gray;
+    flex: 0 1 60px;
+  }
+  .Footer-Link {
+    margin-right: 15px;
+    padding-left: 20px;
+  }
+  
